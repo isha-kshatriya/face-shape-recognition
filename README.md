@@ -10,9 +10,10 @@ ___
 - Create CNN Model
 	- [Reference CNN Tutorial](https://www.tensorflow.org/tutorials/images/cnn?msclkid=f20b94fba78a11ec926ec6e0517dc44d)
 - Test the model and check the accuracy.
-- save the model in pickle file
+- save the model in pickle file.
+- 	- [Reference for PICKLE FILE](https://medium.com/@maziarizadi/pickle-your-model-in-python-2bbe7dba2bbb#:~:text=Python%20has%20provided%20the%20pickle%20library%20which%20makes,into%20your%20python%20code%20with%20load%20%28%29%20function.?msclkid=3388ce68a78b11ec96d93fb44f0eb638)
 - Create a Flask API which will call the model saved in pickle file and pass image as input data to get for getting the prediction.
-	- [Reference for PICKLE FILE](https://medium.com/@maziarizadi/pickle-your-model-in-python-2bbe7dba2bbb#:~:text=Python%20has%20provided%20the%20pickle%20library%20which%20makes,into%20your%20python%20code%20with%20load%20%28%29%20function.?msclkid=3388ce68a78b11ec96d93fb44f0eb638)
+-	- [Reference for creating API to call ML Model](https://www.datacamp.com/community/tutorials/machine-learning-models-api-python?msclkid=322b44d5a79611ecab7580490e3be14e) 
 - Create a UI to get the user image.
 
 ___
