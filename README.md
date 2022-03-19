@@ -1,9 +1,9 @@
-# face-shape-recognition
-Webapplication designed for Hair Salon to suggest hair styles to the user based on the face shape and feature to book an appointment
+# Face Shape Recognition
+Webapplication designed for Hair Salon to suggest hair styles to the user based on the face shape and feature to book an appointment.
 
-
-
+___
 ## Project Flow
+___
 
 - Collect Dataset of images
 	- [Reference Datasets which can be used ](https://analyticsindiamag.com/10-face-datasets-to-start-facial-recognition-projects/#:~:text=%2010%20Face%20Datasets%20To%20Start%20Facial%20Recognition,by%20Google%20is%20a%20large-scale%20facial...%20More%20?msclkid=6127b717a78b11ec9537f8eaebc622ce)
@@ -16,7 +16,9 @@ Webapplication designed for Hair Salon to suggest hair styles to the user based 
 -	- [Reference for creating API to call ML Model](https://www.datacamp.com/community/tutorials/machine-learning-models-api-python?msclkid=322b44d5a79611ecab7580490e3be14e) 
 - Create a UI to get the user image.
 
+___
 ## Web Application
+___
 
 - Technologies used HTML, CSS, JS
 
@@ -26,18 +28,34 @@ Webapplication designed for Hair Salon to suggest hair styles to the user based 
     - Button to Capture the Image from Webcam View (to show the styles based on shape {Calls API from backend}).
     - Show the Fixed list based on the API result (i.e. Face shape).
 
+___
 ## API's (To call ML model from Frontend)
+___
 
 - Technologies used Python (Flask).
 - Create a API which will call the saved ML model and pass the predition (image) which comes from the front end and returns face shape as result.
 
+___
 ## Machine Learning Model
-	
+___
+
 - Technologies used Python.
 - Create a Dataset of images will all face shapes (at least 100 images for each shape).
 - Create a CNN (Convolution Neural Network) Model.
 - Test the model and try to improve the accuracy.
 
+___
 ## Documentation
+___
 
 To be Done
+
+___
+## Folder Structure of the Project
+___
+
+```
+- Webapplication (frontend part of the project)
+- Server (Flask API part of the project)
+- model (ML model of the project)
+```
