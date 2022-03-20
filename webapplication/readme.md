@@ -1,0 +1,1 @@
+## This folder will be used for the frontend of the project
